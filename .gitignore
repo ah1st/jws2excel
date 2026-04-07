@@ -1,9 +1,22 @@
-venv/
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.egg-info/
-*.egg
+
+# Virtual environment
+venv/
+.env
+
+# Build directories
 build/
 dist/
+*.egg-info/
+
+# VS Code / IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
