@@ -7,7 +7,8 @@ setup(
     install_requires=[
         "pandas",
         "openpyxl",
-        "jws2txt"
+        "jws2txt",
+        "olefile"
     ],
     entry_points={
         "console_scripts": [
